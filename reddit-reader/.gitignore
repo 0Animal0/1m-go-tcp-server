@@ -1,0 +1,22 @@
+# Build output
+reddit-reader
+
+# Output files
+*.json
+*.md
+!README.md
+
+# Environment files (never commit credentials)
+.env
+.env.local
+.env.*.local
+
+# Editor/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
